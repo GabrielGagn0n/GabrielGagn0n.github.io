@@ -1,14 +1,13 @@
 import React from 'react'
+import github from '../assets/github.png'
 
-const Header = ({handleToggleDarkMode}) => {
+const Header = () => {
     return (
         <div className="header">
-             {/*the heading of our notes app*/}
-        <h1><span style={{color:"#308d46"}}>Gabriel's</span> Website</h1>
-         {/*this is our toggle button 
-        using this button we can change the background theme for our application*/}
-        <img src='/assets/github_2048_black.png' alt='Github'></img>
-        <button onClick={()=>handleToggleDarkMode((previousDarkMode)=>!previousDarkMode)} className="save">Toggle Mode</button>
+        <h1><span style={{color:"#8B008B"}}>Gabriel's</span> Website</h1>
+        <a href='https://github.com/GabrielGagn0n'>
+            <img src={github} alt="Github" width={50} height={50} />
+        </a>
         </div>
     )
 }
