@@ -27,7 +27,12 @@ function social(){
     '<ul class="social"',
       '<li>',
         "<a href='https://github.com/GabrielGagn0n'>",
-          "<img src='assets/github.png' alt='Github' class='imageSocial' />",
+          "<img src='assets/github.png' alt='Github' class='imageSocial' title='My Github'/>",
+        "</a>",
+      "</li>",
+      '<li>',
+        "<a href = 'mailto: gabriel.gagnon97@gmail.com'>",
+          "<img src='assets/email.png' alt='eMail' class='imageSocial' title='Contact Me'/>",
         "</a>",
       "</li>",
     '</ul>'

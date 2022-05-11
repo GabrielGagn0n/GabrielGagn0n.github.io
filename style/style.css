@@ -82,3 +82,14 @@ code {
   right: 10px;
   bottom: 0;
 }
+
+#social ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#social li {
+  float: right;
+}
