@@ -29,7 +29,6 @@ code {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: var(--nav-bar);
 }
 
 #header li {
@@ -42,6 +41,7 @@ code {
 }
 
 #header li a {
+  border-radius: 10px;
   display: block;
   color: var(--text);
   text-align: center;
@@ -54,6 +54,7 @@ code {
 }
 
 .active{
+  border-radius: 10px;
   background-color: var(--compl-darker);
 }
 
