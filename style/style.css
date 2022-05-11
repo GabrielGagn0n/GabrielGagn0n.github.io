@@ -19,36 +19,37 @@ code {
   --compl-darker: #46008B;
   --background: #141414;
   --background-ligher: #2B2B2B;
+  --nav-bar: #333;
   --text-alt: #A1A1A1;
   --text: white;
 }
 
-ul {
+#header ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: var(--nav-bar);
 }
 
-li {
+#header li {
   float: left;
 }
 
-.links{
+#header .links{
   float: right;
   margin-top: 10px;
 }
 
-li a {
+#header li a {
   display: block;
-  color: white;
+  color: var(--text);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+#header li a:hover {
   background-color: #111;
 }
 
@@ -69,4 +70,15 @@ li a:hover {
 .homeName{
   color: var(--main);
   margin-left: 10px;
+}
+
+.imageSocial{
+  width: auto;
+  height: 50px;
+}
+
+.social{
+  position: absolute;
+  right: 10px;
+  bottom: 0;
 }
