@@ -12,7 +12,7 @@ function navBar(page){
     '<li id="Title"><h1><span class="homeName">Gabriel\'s</span> Website</h1></li>',
     '<li id="AboutMe" class="links"><a href="aboutme.html">About Me</a></li>',
     '<li id="Projects" class="links"><a href="projects.html">Projects</a></li>',
-    '<li id="Home" class="links"><a href="index.html">Home</a></li>',
+    '<li id="Home" class="links"><a href="">Home</a></li>',
     '</ul>',
 
     '</nav>',
