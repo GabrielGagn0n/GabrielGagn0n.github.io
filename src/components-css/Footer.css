@@ -1,0 +1,30 @@
+.imageSocial{
+    width: auto;
+    height: 50px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--background-color);
+    width: 100%;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0px;
+}
+
+.text{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin: 5;
+    font-size: 16px;
+}
+
+.content{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
