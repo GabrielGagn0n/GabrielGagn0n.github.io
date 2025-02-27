@@ -14,7 +14,7 @@ const Header = () => {
                         to="/" 
                         className={location.pathname === "/" ? "glow" : undefined}
                         >
-                            {location.pathname === "/" ? "[ Home ]" : "Home"}
+                            {location.pathname === "/" ? "[ About me ]" : "About me"}
                         </Link>
                   </li>
                   <li>
@@ -33,6 +33,14 @@ const Header = () => {
                             {location.pathname === "/experiences" ? "[ Experiences ]" : "Experiences"}
                         </Link>
                   </li>
+                  {/* <li>
+                        <Link 
+                        to="/resume" 
+                        className={location.pathname === "/resume" ? "glow" : undefined}
+                        >
+                            {location.pathname === "/resume" ? "[ Resume ]" : "Resume"}
+                        </Link>
+                  </li> */}
               </ul>
           </nav>
       </div>

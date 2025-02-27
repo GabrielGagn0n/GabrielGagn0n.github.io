@@ -9,6 +9,16 @@ const Footer = () => {
                 <p className="text">Some links </p>
             </li>
             <li>
+                <a href="mailto:gabriel.gagnon97@gmail.com">
+                <img
+                  src="assets/email.png"
+                  alt="eMail"
+                  className="imageSocial"
+                  title="Contact Me via email"
+                />
+            </a>
+          </li>
+            <li>
                 <a href="https://github.com/GabrielGagn0n">
                 <img
                   src="assets/github.png" 
@@ -19,12 +29,12 @@ const Footer = () => {
                 </a>
             </li>
             <li>
-                <a href="mailto:gabriel.gagnon97@gmail.com">
+                <a href="www.linkedin.com/in/gabriel-gagnon-8673b9210">
                 <img
-                  src="assets/email.png"
-                  alt="eMail"
+                  src="assets/linkedin.png"
+                  alt="LinkedIn"
                   className="imageSocial"
-                  title="Contact Me"
+                  title="My linkedIn"
                 />
             </a>
           </li>

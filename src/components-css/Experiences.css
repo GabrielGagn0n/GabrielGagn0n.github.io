@@ -7,7 +7,7 @@
 .experience-card {
     background: var(--background-color-alt);
     border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.3);
     padding: 30px;
     max-width: 90%;
     height: 500px;
@@ -27,7 +27,7 @@
 }
 
 .experience-card:hover {
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
     opacity: 1;
 }
 

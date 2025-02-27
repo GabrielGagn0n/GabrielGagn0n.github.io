@@ -18,7 +18,7 @@ const Experiences = () => {
     return (
         <div className="section">
             <div className="experience-text">
-                <h4>Some Experiences will be here...</h4>
+                <h4>Some experiences will be here...</h4>
             </div>
 
             <div className="experiences-container">

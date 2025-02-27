@@ -1,6 +1,7 @@
 .imageSocial{
     width: auto;
-    height: 50px;
+    height: 35px;
+    margin-right: 10px;
 }
 
 .footer{
@@ -19,8 +20,8 @@
     color: #FFFFFF;
     display: flex;
     align-items: center;
-    margin: 5;
-    font-size: 16px;
+    margin: 8px;
+    font-size: 14px;
 }
 
 .content{

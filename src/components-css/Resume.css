@@ -1,0 +1,43 @@
+.cvs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.cv-card {
+    background-color: var(--background-color-alt);
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 12px;
+    opacity: 0.95;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.cv-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    opacity: 1;
+}
+
+.description {
+    color: var(--text-color-alt);
+}
+
+.download-btn {
+    text-decoration: none;
+    color: var(--text-color-link);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.download-btn:hover {
+    background: #5c7fba;
+    color: white;
+}
