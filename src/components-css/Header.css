@@ -3,11 +3,18 @@
     margin: 0;
     padding-left: 1%;
     padding-top: .5%;
-    display: flex;
     gap: 1%;
 }
 
 .LinkList a {
     text-decoration: none;
     color: var(--text-color);
+}
+
+.LinkList li {
+    padding: 5px;
+}
+
+.Header {
+    width: 125px;
 }

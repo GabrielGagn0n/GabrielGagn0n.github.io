@@ -1,33 +1,29 @@
 import React, {useState} from "react";
 import "../components-css/Header.css"
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
-    const [linkText, setLinkText] = useState({
-        home: "[Home]",
-        projects: "Projects"
-    });
-
-    const handleClick = (link) => {
-        const newLinkText = {
-            home: "Home",
-            projects: "Projects"
-        };
-
-        newLinkText[link] = '[' +  link.charAt(0).toUpperCase() + link.slice(1) + ']';
-
-        setLinkText(newLinkText);
-    };
+    const location = useLocation();
 
     return ( 
       <div className="Header">
           <nav>
               <ul className="LinkList">
                   <li>
-                      <Link to="/" onClick={() => handleClick("home")}>{linkText.home}</Link>
+                        <Link 
+                        to="/" 
+                        className={location.pathname === "/" ? "glow" : undefined}
+                        >
+                            {location.pathname === "/" ? "[ Home ]" : "Home"}
+                        </Link>
                   </li>
                   <li>
-                      <Link to="/projects" onClick={() => handleClick("projects")}>{linkText.projects}</Link>
+                        <Link 
+                        to="/projects" 
+                        className={location.pathname === "/projects" ? "glow" : undefined}
+                        >
+                            {location.pathname === "/projects" ? "[ Projects ]" : "Projects"}
+                        </Link>
                   </li>
               </ul>
           </nav>

@@ -1,11 +1,27 @@
 :root {
   --background-color: #3A405A;
-  --background-color-alt: #49516F;
+  --background-color-alt: #252f3f;
   --text-color: #C3C3E6;
+  --text-color-alt: #BAACBD;
+  --text-color-link: #91a7d6;
 }
 
 body {
   background-color: var(--background-color);
   margin: 0;
   color: var(--text-color);
+}
+
+.App {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10%;
+  margin: 1%;
+}
+
+.glow {
+  font-size: 15px;
+  color: var(--text-color);
+  text-shadow: 0 0 10px var(--text-color), 0 0 0px #00f, 0 0 30px var(--background-color-alt);
+  transition: text-shadow 0.3s ease-in-out;
 }

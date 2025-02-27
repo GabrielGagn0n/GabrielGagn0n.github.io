@@ -7,11 +7,12 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: var(--background-color);
+    background-color: var(--background-color-alt);
     width: 100%;
     white-space: nowrap;
-    position: absolute;
-    bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 .text{
