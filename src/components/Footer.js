@@ -29,7 +29,7 @@ const Footer = () => {
                 </a>
             </li>
             <li>
-                <a href="www.linkedin.com/in/gabriel-gagnon-8673b9210">
+                <a href="https://www.linkedin.com/in/gabriel-gagnon-8673b9210">
                 <img
                   src="assets/linkedin.png"
                   alt="LinkedIn"
