@@ -5,3 +5,13 @@
     margin-bottom: 20px;
     width: 80%;
 }
+
+@media (max-width: 768px) {
+    .home-description {
+        font-size: 0.85rem;
+        color: var(--text-color-alt);
+        line-height: 1.6;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+}

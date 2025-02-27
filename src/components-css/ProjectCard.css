@@ -65,3 +65,29 @@
     background: #5c7fba;
     color: white;
 }
+
+@media (max-width: 768px) {
+    .project-card {
+        flex: 1 1 calc(50% - 25px);
+        max-width: 70%;
+        background: var(--background-color-alt);
+        color: var(--text-color);
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgb(0, 0, 0, 0.3);
+        text-align: center;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        margin-bottom: 50px;
+    }
+
+    .project-description {
+        font-size: 0.85rem;
+        color: var(--text-color);
+        margin-bottom: 15px;
+    }
+
+    .projects-container {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 0;
+    }
+}

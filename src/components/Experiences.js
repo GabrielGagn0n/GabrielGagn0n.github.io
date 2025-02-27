@@ -1,20 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../components/ExperiencesCard"
 import "../components-css/Experiences.css"
 import Slider from "react-slick";
 import ExperienceCard from "../components/ExperiencesCard";
 
 const Experiences = () => {
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 768);
+        };
+
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     const settings = {
         dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        centerMode: true,
+        centerMode: !isMobile,
         focusOnSelect: true
     };
-
+    
     return (
         <div className="section">
             <div className="experience-text">
