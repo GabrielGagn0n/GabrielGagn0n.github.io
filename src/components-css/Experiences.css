@@ -1,0 +1,71 @@
+.experiences-container {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.experience-card {
+    background: var(--background-color-alt);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+    opacity: 0.95;
+}
+
+.experience-text {
+    margin-bottom: 40px;
+}
+
+.experience-text h4 {
+    font-weight: 600;
+    color: var(--text-color);
+    letter-spacing: 1px;
+}
+
+.experience-card:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    opacity: 1;
+}
+
+.experience-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.experience-description {
+    font-size: 1rem;
+    color: var(--text-color-alt);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.slick-dots li button:before {
+    color: #fff;
+    font-size: 16px;
+}
+
+.slick-prev, .slick-next {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+}
+
+.slick-prev {
+    left: -50px;
+}
+
+.slick-next {
+    right: -50px;
+}
+
+.slick-slide {
+    transition: transform 0.3s ease;
+}

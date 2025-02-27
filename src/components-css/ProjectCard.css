@@ -1,28 +1,14 @@
-.project-text {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
 .projects-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 20px;
-    padding-top: 20px;
-}
-
-.projects-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Keeps everything centered */
-  width: 100%;
 }
 
 .project-card {
-    flex: 1 1 calc(33.333% - 25px);
+    flex: 1 1 calc(50% - 25px);
     min-width: 280px;
-    max-width: 280px;
+    max-width: 600px;
     background: var(--background-color-alt);
     color: var(--text-color);
     padding: 20px;
@@ -37,8 +23,14 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
+.project-text h4 {
+    font-weight: 600;
+    color: var(--text-color);
+    letter-spacing: 1px;
+}
+
 .project-image {
-    width: 100%;
+    width: 65%;
     border-radius: 8px;
 }
 

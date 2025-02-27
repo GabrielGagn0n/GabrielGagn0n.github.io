@@ -25,3 +25,44 @@ body {
   text-shadow: 0 0 10px var(--text-color), 0 0 0px #00f, 0 0 30px var(--background-color-alt);
   transition: text-shadow 0.3s ease-in-out;
 }
+
+.section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 768px) {
+    .App {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .experience-card {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .experience-title {
+        font-size: 1.3rem;
+    }
+
+    .experience-description {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .App {
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .experience-title {
+        font-size: 1.1rem;
+    }
+
+    .experience-description {
+        font-size: 0.85rem;
+    }
+}

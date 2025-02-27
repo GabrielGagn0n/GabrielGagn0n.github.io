@@ -16,5 +16,24 @@
 }
 
 .Header {
-    width: 125px;
+    width: 150px;
+}
+
+@media (max-width: 768px) {
+    .LinkList {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding-left: 0;
+        padding-top: 0;
+        flex-direction: row;
+    }
+
+    .LinkList li {
+        padding: 0; 
+    }
+
+    .Header {
+        width: auto; 
+    }
 }

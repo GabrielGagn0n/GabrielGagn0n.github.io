@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import "../components-css/Header.css"
 import { Link, useLocation } from "react-router-dom";
 
@@ -23,6 +23,14 @@ const Header = () => {
                         className={location.pathname === "/projects" ? "glow" : undefined}
                         >
                             {location.pathname === "/projects" ? "[ Projects ]" : "Projects"}
+                        </Link>
+                  </li>
+                  <li>
+                        <Link 
+                        to="/experiences" 
+                        className={location.pathname === "/experiences" ? "glow" : undefined}
+                        >
+                            {location.pathname === "/experiences" ? "[ Experiences ]" : "Experiences"}
                         </Link>
                   </li>
               </ul>
