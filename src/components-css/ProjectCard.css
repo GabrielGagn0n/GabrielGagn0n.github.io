@@ -68,8 +68,7 @@
 
 @media (max-width: 768px) {
     .project-card {
-        flex: 1 1 calc(50% - 25px);
-        max-width: 70%;
+        max-width: 80%;
         background: var(--background-color-alt);
         color: var(--text-color);
         border-radius: 12px;
@@ -86,8 +85,8 @@
     }
 
     .projects-container {
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        gap: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
