@@ -13,9 +13,7 @@ body {
 }
 
 .App {
-  display: flex;
-  justify-content: flex-start;
-  gap: 10%;
+  gap: 3%;
   margin: 1%;
 }
 
@@ -29,6 +27,8 @@ body {
 .section {
     width: 80%;
     margin: 0 auto;
+    margin-top: 6%;
+    text-align: center;
 }
 
 .section h4 {
@@ -54,6 +54,15 @@ body {
 
     .experience-description {
         font-size: 0.95rem;
+    }
+
+    .section {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
