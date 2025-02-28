@@ -37,6 +37,31 @@ body {
     letter-spacing: 1px;
 }
 
+.tags {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tag {
+    background-color: var(--background-color);
+    color: var(--text-color-alt);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: default;
+    transition: background-color 0.3s ease;
+}
+
+.tag:hover {
+    background-color: #5c7fba;
+}
+
 @media (max-width: 768px) {
     .App {
         flex-direction: column;

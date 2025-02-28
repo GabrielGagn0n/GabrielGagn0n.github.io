@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
         <ul className = 'content'>
             <li>
-                <p className="text">Some links </p>
+                <p className="text">Me contacter : </p>
             </li>
             <li>
                 <a href="mailto:gabriel.gagnon97@gmail.com">

@@ -38,6 +38,12 @@
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+.experience-location {
+    font-size: 0.85rem;
+    color: var(--text-color-link);
+    line-height: 1.6;
+    margin-bottom: 20px;    
+}
 
 .experience-description {
     font-size: 1rem;
@@ -67,6 +73,10 @@
 
 .slick-slide {
     transition: transform 0.3s ease;
+}
+
+.spaced {
+    margin-top: 8em;
 }
 
 @media (max-width: 768px) {

@@ -29,28 +29,72 @@ const Experiences = () => {
     return (
         <div className="section">
             <div className="experience-text">
-                <h4>Some experiences will be here...</h4>
+                <h4>Expériences professionnels : </h4>
             </div>
 
             <div className="experiences-container">
                 <Slider {...settings}>
                     <div>
                         <ExperienceCard
-                            title="Lorem ipsum"
-                            description="Lorem ipsum odor amet, consectetuer adipiscing elit. Mollis nibh fusce penatibus fames, eu massa quis. Ultricies non elit consectetur curabitur risus et ad augue penatibus. Dictum vehicula inceptos vivamus sem duis placerat risus. Fusce mus tortor nascetur; scelerisque nascetur taciti libero. Sollicitudin interdum nulla nibh convallis fermentum nostra nunc fringilla scelerisque. Neque lacus ac ornare eleifend dapibus iaculis class at. Ac inceptos rutrum cursus arcu aptent lacinia ullamcorper nam."
-                        />
+                            title="Stage - Emploi étudiant"
+                            location="Retraite Québec - Direction des systèmes en soutien à l'organisation"
+                            tags={["C#", "Openshift", "Microsoft SQL Server"]}>
+                            <div>
+                                <p>
+                                    Développement d’une application web permettant la gestion des feuilles de temps des employés, 
+                                    en assurant la communication avec une base de données et une interface graphique.
+                                </p>
+                                <p> 
+                                    Garantie de la qualité du produit grâce à des tests unitaires et fonctionnels ainsi qu’à des revues de code.
+                                </p>
+                                <p> 
+                                    À l’issue du stage, une offre d’emploi étudiant a été proposée et acceptée pour poursuivre l’amélioration du projet.
+                                </p>
+                                <p className="spaced">
+                                    Technologies utilisées :
+                                </p>
+                            </div>
+                            </ExperienceCard>
                     </div>
                     <div>
                         <ExperienceCard
-                            title="Lorem ipsum"
-                            description="Sit sagittis vitae varius venenatis etiam egestas. Pulvinar efficitur integer conubia; malesuada netus class ex. Quis primis pharetra pellentesque ridiculus dictum vivamus suscipit. Lacinia nisi eros aliquam imperdiet enim viverra condimentum. Commodo venenatis inceptos, aenean nec curabitur luctus. Malesuada montes est finibus semper fusce morbi. Habitant semper netus aliquam lorem mi porttitor diam imperdiet. Nibh penatibus nam consequat vivamus eleifend porttitor tempus consequat accumsan."
-                        />
+                            title="Stage - Emploi étudiant"
+                            location="Retraite Québec - Direction de la gestion des environnements et des outils d'essais"
+                            tags={["C#", "Microsoft SQL Server", "Windows Form"]}>
+                                <div>
+                                    <p> 
+                                        Développement d'une application permettant d’extraire et de dupliquer des dossiers clients de manière sécurisée, 
+                                        sans nécessiter d’informations sensibles. Ces duplications étaient destinées aux bases de données utilisées pour les tests.
+                                    </p>
+                                    <p> 
+                                        Une documentation complète était requise, et le code devait être conçu de manière propre, structurée et lisible.
+                                    </p>
+                                    <p> 
+                                        À l’issue du stage, une offre d’emploi étudiant a été proposée et acceptée, permettant de poursuivre le développement et l’amélioration du projet.
+                                    </p>
+                                    <p className="spaced">
+                                        Technologies utilisées :
+                                    </p>
+                                </div>
+                            </ExperienceCard>
                     </div>
                     <div>
                         <ExperienceCard
-                            title="Lorem ipsum"
-                            description="Dolor egestas pulvinar nisl iaculis nisi sem magna pretium id. Vitae congue nascetur egestas montes; luctus primis non bibendum convallis. Rutrum blandit feugiat eget semper proin integer ultricies aliquet. Suspendisse tempor lobortis penatibus quam ornare sociosqu varius. Tortor cubilia risus viverra; dignissim taciti auctor. Torquent nisl faucibus interdum elit malesuada sociosqu. Magnis suspendisse vehicula congue morbi facilisis justo."
-                        />
+                            title="Études"
+                            location="Université Laval - Génie Logiciel"
+                            tags={["Java", "Python", "JS"]}>
+                            <p>
+                                Diplômé en Génie Logiciel de l’Université Laval en décembre 2024, j’ai acquis de l’expérience en développement logiciel à travers mes stages, 
+                                mon emploi étudiant et mes études.
+                            </p>
+                            <p>
+                                Passionné par l’apprentissage de nouvelles technologies, j’ai exploré divers outils et langages, comme Python, Java, Vue.js. Mon parcours m’a 
+                                permis de renforcer mes compétences en développement back-end et en travail d’équipe, des atouts que je continue de perfectionner.
+                            </p>
+                            <p className="spaced">
+                                Quelques technologies apprises : 
+                            </p>
+                        </ExperienceCard>
                     </div>
                 </Slider>
             </div>

@@ -5,22 +5,33 @@ const Projects = () => {
   return ( 
     <div className="section">
         <div className="project-text">
-            <h4> Some projects will be here...</h4>
+            <h4> Quelques projets personnels : </h4>
         </div>
 
         <div className="projects-container">
+            
             <ProjectCard
-                image = "https://placehold.co/600x400"
-                title = "Test"
-                description = "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis vivamus nisl egestas penatibus odio ac. Quam urna nascetur, pretium lacus sapien morbi libero. Id class dui ridiculus mauris integer at, suscipit quam. Montes porttitor in eleifend pellentesque accumsan ad ad placerat. Class vehicula sagittis consequat sem praesent ornare. Lacinia dictum tortor purus; conubia enim ultrices hac. Sollicitudin pellentesque justo fermentum blandit in suscipit vel vulputate. Nascetur pellentesque leo a sagittis dui. Quis suscipit auctor vel non mus sociosqu nascetur."
-                link1="https://exemple.com"
+                image = "/Projects/Website.png"
+                title = "Site personnel"
+                link1="https://gabrielgagn0n.github.io/"
+                link2="https://github.com/GabrielGagn0n/GabrielGagn0n.github.io"
+                tags={["React", "JavaScript", "Développement Web"]}
+            />
+
+            <ProjectCard
+                image = "/Projects/movie_app.png"
+                title = "Application de gestion cinématographique"
+                description = "Cette application permet de gérer les séries télévisées écoutées : ajouter, modifier ou supprimer des séries, mettre à jour leur statut (comme 'Complété' ou 'Pas commencé') et garder une trace de la saison et des épisodes vus."
+                link1="https://github.com/GabrielGagn0n/Movie_App"
+                link2="https://github.com/GabrielGagn0n/movie_app_code"
+                tags={["C#", "GODOT"]}
             />
             <ProjectCard
-                image = "https://i1.wp.com/oeuf-poule-poussin.com/wp-content/uploads/2016/05/envol-2904-.jpg?fit=1200%2C803&ssl=1"
-                title = "Test2"
-                description = "This is a test"
-                link1="https://exemple.com"
-                link2="https://github.com"
+                image = "/Projects/norlab.gif"
+                title = "Projet final de BACC"
+                description = "Mon projet final en Génie Logiciel consistait à développer un site web permettant aux utilisateurs de télécharger un fichier de configuration afin de tester son efficacité avec la librairie lippointmatcher de Norlab. Le projet incluait également d’autres fonctionnalités, telles qu’un tableau de classement (leaderboard) et une base de données pour stocker les résultats et informations des utilisateurs."
+                link2="https://github.com/norlab-ulaval/libpointmatcher-server"
+                tags={["Vue", "Python", "Javascript", "MongoDB"]}
             />
         </div>
     </div>

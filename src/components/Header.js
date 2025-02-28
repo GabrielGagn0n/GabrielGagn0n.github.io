@@ -14,7 +14,7 @@ const Header = () => {
                         to="/" 
                         className={location.pathname === "/" ? "glow" : undefined}
                         >
-                            {location.pathname === "/" ? "[ About me ]" : "About me"}
+                            {location.pathname === "/" ? "[ À propos ]" : "À propos"}
                         </Link>
                   </li>
                   <li>
@@ -22,7 +22,7 @@ const Header = () => {
                         to="/projects" 
                         className={location.pathname === "/projects" ? "glow" : undefined}
                         >
-                            {location.pathname === "/projects" ? "[ Projects ]" : "Projects"}
+                            {location.pathname === "/projects" ? "[ Projets ]" : "Projets"}
                         </Link>
                   </li>
                   <li>
@@ -30,7 +30,7 @@ const Header = () => {
                         to="/experiences" 
                         className={location.pathname === "/experiences" ? "glow" : undefined}
                         >
-                            {location.pathname === "/experiences" ? "[ Experiences ]" : "Experiences"}
+                            {location.pathname === "/experiences" ? "[ Expériences ]" : "Expériences"}
                         </Link>
                   </li>
                   {/* <li>

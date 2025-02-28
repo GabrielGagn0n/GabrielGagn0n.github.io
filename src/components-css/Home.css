@@ -2,11 +2,29 @@
     font-size: 1rem;
     color: var(--text-color-alt);
     line-height: 1.6;
-    margin-bottom: 20px;
     width: 80%;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 25px;
 }
+
+.image-social-home{
+    width: auto;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.social-btn {
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 6%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 @media (max-width: 768px) {
     .home-description {
