@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -14,7 +14,7 @@ import Experiences from './components/Experiences.js';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
         <Header className="Header-class" />
         <Routes className="Routes">
           <Route path="/" element={<Home/>} />
@@ -22,7 +22,7 @@ function App() {
           <Route path="/experiences" element={<Experiences/>} />
           {/* <Route path="/resume" element={<Resume/>} /> */}
         </Routes>
-      </Router>
+      </HashRouter>
       <Footer />
     </div>
   );

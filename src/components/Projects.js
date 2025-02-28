@@ -11,7 +11,7 @@ const Projects = () => {
         <div className="projects-container">
             
             <ProjectCard
-                image = "/Projects/Website.png"
+                image = "/Projects/website.png"
                 title = "Site personnel"
                 link1="https://gabrielgagn0n.github.io/"
                 link2="https://github.com/GabrielGagn0n/GabrielGagn0n.github.io"
